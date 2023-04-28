@@ -94,11 +94,7 @@ class GameFragment : Fragment() {
         // Update the UI
 
 
-        // Observe the currentScrambledWord LiveData.
-        viewModel.score.observe(viewLifecycleOwner,
-            { newScore ->
-                binding.score.text = getString(R.string.score, newScore)
-            })
+
 
 
 
